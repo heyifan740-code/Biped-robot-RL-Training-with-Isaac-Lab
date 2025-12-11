@@ -4,11 +4,6 @@ A reinforcement learning project for the OpenDuckMini bipedal robot, developed u
 
 This project demonstrates an end-to-end workflow: importing a custom URDF biped, configuring the physics environment, and training a locomotion policy using **PPO (Proximal Policy Optimization)**. A key focus of this work was addressing common bipedal instability issues.
 
-## Demo Showcase
-
-![Walking Demo](media/demo.gif)
-*(Note: Please replace `media/demo.gif` with your actual recording to visualize the training results)*
-
 ## Key Features & Highlights
 
 * **Sim2Real Ready Pipeline**: 
