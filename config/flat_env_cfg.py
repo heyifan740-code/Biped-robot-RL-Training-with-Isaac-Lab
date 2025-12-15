@@ -3,7 +3,7 @@ from isaaclab_tasks.manager_based.locomotion.velocity.velocity_env_cfg import Lo
 from isaaclab_assets.robots.my_biped import MY_BIPED_CFG
 from isaaclab.managers import RewardTermCfg as RewTerm, ObservationGroupCfg as ObsGroup, ObservationTermCfg as ObsTerm
 from isaaclab.envs import mdp
-# [新增] 正确导入噪声配置类
+#  正确导入噪声配置类
 from isaaclab.utils.noise import AdditiveUniformNoiseCfg as Unoise
 
 # --------------------------------------------------------
