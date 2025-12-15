@@ -1,19 +1,8 @@
 # 🦆 My biped robot RL Training with Isaac Lab
 
-A reinforcement learning project for the OpenDuckMini bipedal robot, developed using **NVIDIA Isaac Lab** (built on Isaac Sim 5.1).
+A reinforcement learning project for the duck bipedal robot, developed using **NVIDIA Isaac Lab** (built on Isaac Sim 5.1).
 
-This project demonstrates an end-to-end workflow: importing a custom URDF biped, configuring the physics environment, and training a locomotion policy using **PPO (Proximal Policy Optimization)**. A key focus of this work was addressing common bipedal instability issues.
-
-## 🎥 Simulation Demos
-
-The following demos showcase the robot's performance after training with the custom curriculum.
-
-| **Stable Locomotion (0.6 m/s)** | **Robustness / Push Recovery** |
-| :---: | :---: |
-| <img src="media/walk_demo.gif" width="100%"> | <img src="media/push_demo.gif" width="100%"> |
-| *Smooth gait with minimal body tilt* | *Recovering from external disturbances* |
-
-> **Note:** Full training videos and Sim2Real tests can be found in the `media/` directory.
+This project demonstrates an end-to-end workflow: importing a custom URDF biped, configuring the physics environment, and training a locomotion policy using **PPO (Proximal Policy Optimization)**. A key focus of this work was addressing common bipedal instability issues.Trained biped robot walking at a random velocity (0.0~1.0 m/s) and deploy it at a certain velocity in simulator.
 
 ## Key Features & Highlights
 
